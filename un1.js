@@ -13,7 +13,7 @@ client.on('ready', () => {
   console.log(' Music Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type 3help",{type: 'WATCHING'})
+    client.user.setActivity(" Type 1help",{type: 'WATCHING'})
 	
 });
 	
@@ -21,7 +21,7 @@ client.on('ready', () => {
 	
 client.on('message', msg => {
 
-    if (msg.content == '2play') {
+    if (msg.content == '1play') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
