@@ -40,7 +40,7 @@ client.on('message', msg => {
 let commandsList = fs.readFileSync('commands.md', 'utf8');
 
 /* MUSIC VARIABLES */
-let queue = []; // Songs queue
+
 let songsQueue = []; // Song names stored for queue command
 let isPlaying = false; // Is music playing
 let dispatcher = null;
