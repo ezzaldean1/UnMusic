@@ -13,12 +13,32 @@ client.on('ready', () => {
   console.log(' Music Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type 1help",{type: 'WATCHING'})
+    client.user.setActivity(" Prestige Shop",{type: 'WATCHING'})
 	
 });
 	
             var prefix = "1" ;
 	
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
 	
 	/*
 البكجآت
@@ -276,6 +296,10 @@ ${prefix}queue - لمعرفة قآئمة التشغيل
 
    }
    }); 
+client.on('ready', () => {
 
+    client.channels.find(c => c.id === '485083278831910922').join();
+
+});
 
 client.login(process.env.BOT_TOKEN);  //
